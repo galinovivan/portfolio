@@ -2,3 +2,19 @@
 .background_el(@url, @x, @y) {
   background: url(@url) no-repeat @x @y;
 }
+.flex-align(@space: space-between) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: @space;
+  align-items: center;
+}
+.transition(@what: all, @time: 0.4s) {
+  -webkit-transition: @what @time;
+  -moz-transition: @what @time;
+  -ms-transition: @what @time;
+  -o-transition: @what @time;
+  transition: @what @time;
+}

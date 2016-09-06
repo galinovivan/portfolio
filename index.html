@@ -13,18 +13,53 @@
 <body>
 <div class="page_preloader" id="mainPreloader">
     <div class="spinner"></div>
+    <video id="video_bg" autoplay="autoplay" loop="loop">
+        <source src="video/star.mp4" type="video/mp4">
+        <source src="video/star.ogv" type="video/ogv">
+        <source src="video/star.webm" type="video/webm">
+    </video>
 </div>
-<div class="page_nav"></div>
-<div class="page_content">
-    <div class="container-fluid">
-        <div class="col-md-6">
+<main>
+    <div class="page_wrapper">
+        <div class="container-fluid">
+            <div class="col-md-4 sidebar">
 
+            </div>
+            <div class="col-md-8">
+                <div class="row block_nav">
+                    <div class="col-md-6 about">
+                        <div class="cat_title">
+                        <a href="#">
+                            Обо мне
+                        </a>
+                            </div>
+                    </div>
+                    <div class="col-md-6 resume">
+                        <div class="cat_title">
+                        <a href="#">
+                            Мой опыт
+                        </a>
+                            </div>
+                    </div>
+                    <div class="col-md-6 portfolio">
+                        <div class="cat_title">
+                        <a href="#">
+                            Последнии работы
+                        </a>
+                            </div>
+                    </div>
+                    <div class="col-md-6 contact">
+                        <div class="cat_title">
+                        <a href="#">
+                            Контакты
+                            </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6"></div>
-        <div class="col-md-6"></div>
-        <div class="col-md-6"></div>
     </div>
-</div>
+</main>
 <script src="js/preload.js"></script>
 </body>
 </html>

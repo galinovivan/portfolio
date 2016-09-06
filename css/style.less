@@ -1,2 +1,47 @@
+@import "varibles";
+@import "mixin";
 @import "base";
 @import "preloader";
+@import "video";
+
+
+main {
+  height: 100%;
+  .page_wrapper {
+    height: 100%;
+    width: 100%;
+    div {
+      height: 100%;
+      .block_nav {
+        height: 100%;
+        & > div {
+          height: 50%;
+          border: 1px solid @black;
+          position: relative;
+          text-align: center;
+          .cat_title {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            height: auto;
+
+            a {
+              color: @link;
+              font-size: @medium_font;
+              text-transform: uppercase;
+              .transition(all, 0.2s);
+              &:hover {
+                font-size: @medium_font + 2;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .sidebar {
+      border: 1px solid @black;
+    }
+  }
+}
