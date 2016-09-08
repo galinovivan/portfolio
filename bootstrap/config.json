@@ -131,7 +131,7 @@
     "@screen-sm-max": "(@screen-md-min - 1)",
     "@screen-md-max": "(@screen-lg-min - 1)",
     "@grid-columns": "12",
-    "@grid-gutter-width": "30px",
+    "@grid-gutter-width": "0",
     "@grid-float-breakpoint": "@screen-sm-min",
     "@grid-float-breakpoint-max": "(@grid-float-breakpoint - 1)",
     "@container-tablet": "(720px + @grid-gutter-width)",
@@ -383,8 +383,11 @@
   },
   "css": [
     "grid.less",
-    "responsive-utilities.less"
+    "responsive-utilities.less",
+    "modals.less"
   ],
-  "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=8f9652ca0bd0876ff1441d61c1dd735c"
+  "js": [
+    "modal.js"
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=8c25f74ddda7c949772277a197ac8660"
 }

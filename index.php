@@ -1,3 +1,6 @@
+<?php
+include_once "sidebar.php";
+?>
 <!DOCTYPE html>
         <html>
 <head>
@@ -9,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
 </head>
 <body>
 <div class="page_preloader" id="mainPreloader">
@@ -22,14 +26,13 @@
 <main>
     <div class="page_wrapper">
         <div class="container-fluid">
-            <div class="col-md-4 sidebar">
-
-            </div>
-            <div class="col-md-8">
+            <?php echo $sidebar;
+                ?>
+            <div class="col-md-8" id="content">
                 <div class="row block_nav">
                     <div class="col-md-6 about">
                         <div class="cat_title">
-                        <a href="#">
+                        <a href="about.php">
                             Обо мне
                         </a>
                             </div>
@@ -60,6 +63,7 @@
         </div>
     </div>
 </main>
+<script src="js/ajax/script.js"></script>
 <script src="js/preload.js"></script>
 </body>
 </html>
