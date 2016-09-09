@@ -1,6 +1,3 @@
-<?php
-include_once "sidebar.php";
-?>
 <!DOCTYPE html>
         <html>
 <head>
@@ -17,17 +14,13 @@ include_once "sidebar.php";
 <body>
 <div class="page_preloader" id="mainPreloader">
     <div class="spinner"></div>
-    <video id="video_bg" autoplay="autoplay" loop="loop">
-        <source src="video/star.mp4" type="video/mp4">
-        <source src="video/star.ogv" type="video/ogv">
-        <source src="video/star.webm" type="video/webm">
-    </video>
 </div>
 <main>
     <div class="page_wrapper">
         <div class="container-fluid">
-            <?php echo $sidebar;
-                ?>
+            <div class="row">
+            <div class="col-md-4 sidebar">
+            </div>
             <div class="col-md-8" id="content">
                 <div class="row block_nav">
                     <div class="col-md-6 about">
@@ -61,6 +54,7 @@ include_once "sidebar.php";
                 </div>
             </div>
         </div>
+            </div>
     </div>
 </main>
 <script src="js/ajax/script.js"></script>
