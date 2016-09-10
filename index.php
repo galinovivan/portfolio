@@ -1,3 +1,6 @@
+<?php
+include "sidebar.php";
+?>
 <!DOCTYPE html>
         <html>
 <head>
@@ -19,8 +22,9 @@
     <div class="page_wrapper">
         <div class="container-fluid">
             <div class="row">
-            <div class="col-md-4 sidebar">
-            </div>
+                <?php
+                echo $sidebar;
+                ?>
             <div class="col-md-8" id="content">
                 <div class="row block_nav">
                     <div class="col-md-6 about">
