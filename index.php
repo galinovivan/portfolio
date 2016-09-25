@@ -1,6 +1,4 @@
-<?php
-include_once "sidebar.php";
-?>
+
 <!DOCTYPE html>
         <html>
 <head>
@@ -17,17 +15,19 @@ include_once "sidebar.php";
 <body>
 <div class="page_preloader" id="mainPreloader">
     <div class="spinner"></div>
-    <video id="video_bg" autoplay="autoplay" loop="loop">
+ <!--    <video id="video_bg" autoplay="autoplay" loop="loop">
         <source src="video/star.mp4" type="video/mp4">
         <source src="video/star.ogv" type="video/ogv">
         <source src="video/star.webm" type="video/webm">
-    </video>
+    </video> -->
 </div>
 <main>
     <div class="page_wrapper">
         <div class="container-fluid">
-            <?php echo $sidebar;
-                ?>
+            <?php 
+            require ('sidebar.php');
+            ?>
+
             <div class="col-md-8" id="content">
                 <div class="row block_nav">
                     <div class="col-md-6 about">
@@ -47,14 +47,14 @@ include_once "sidebar.php";
                     <div class="col-md-6 portfolio">
                         <div class="cat_title">
                         <a href="#">
-                            Последнии работы
+                            Мои услуги
                         </a>
                             </div>
                     </div>
                     <div class="col-md-6 contact">
                         <div class="cat_title">
                         <a href="#">
-                            Контакты
+                        Последние работы
                             </a>
                             </div>
                     </div>
