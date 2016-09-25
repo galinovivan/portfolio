@@ -30,28 +30,28 @@
 
             <div class="col-md-8" id="content">
                 <div class="row block_nav">
-                    <div class="col-md-6 about">
+                    <div class="col-md-6 nav_iten">
                         <div class="cat_title">
                         <a href="about.php">
                             Обо мне
                         </a>
                             </div>
                     </div>
-                    <div class="col-md-6 resume">
+                    <div class="col-md-6 nav_item">
                         <div class="cat_title">
                         <a href="#">
                             Мой опыт
                         </a>
                             </div>
                     </div>
-                    <div class="col-md-6 portfolio">
+                    <div class="col-md-6 nav_item">
                         <div class="cat_title">
                         <a href="#">
                             Мои услуги
                         </a>
                             </div>
                     </div>
-                    <div class="col-md-6 contact">
+                    <div class="col-md-6 nav_item">
                         <div class="cat_title">
                         <a href="#">
                         Последние работы
