@@ -1,28 +1,9 @@
-
 <!DOCTYPE html>
-        <html>
-<head>
-    <meta charset="utf-8">
-    <title>
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
-</head>
+<html>
+<?php
+require ('header.php');
+?>
 <body>
-<div class="page_preloader" id="mainPreloader">
-    <div class="spinner">
-        
-    </div>
- <!--    <video id="video_bg" autoplay="autoplay" loop="loop">
-        <source src="video/star.mp4" type="video/mp4">
-        <source src="video/star.ogv" type="video/ogv">
-        <source src="video/star.webm" type="video/webm">
-    </video> -->
-</div>
 <main>
     <div class="page_wrapper">
         <div class="container-fluid">
@@ -32,44 +13,52 @@
 
             <div class="col-md-8" id="content">
                 <div class="row block_nav">
-                    <div class="col-md-6 nav_item">
+                     <div class="col-md-6 nav_item">
+                       <a href="#">
                         <div class="cat_title">
-                        <a href="about.php">
-                            Обо мне
-                        </a>
-                            </div>
-                    </div>
-                    <div class="col-md-6 nav_item">
-                        <div class="cat_title">
-                        <a href="#">
-                            Мой опыт
-                        </a>
-                            </div>
-                            <img src="img/cat_1.jpg" alt="some img">
-                    </div>
-                    <div class="col-md-6 nav_item">
-                        <div class="cat_title">
-                         
-                        <a href="#"> 
-                            Мои услуги
-                        </a>
+                        <p>
+                            Обо мне 
+                        </p>
                             </div>
                             <img src="img/cat_2.jpg" alt="some img">
+                            </a>
                     </div>
                     <div class="col-md-6 nav_item">
+                       <a href="#">
                         <div class="cat_title">
-                        <a href="#">
-                        Последние работы
+                        <p>
+                            Мой опыт
+                        </p>
+                            </div>
+                            <img src="img/cat_1.jpg" alt="some img">
                             </a>
+                    </div>
+                    <div class="col-md-6 nav_item">
+                    <a href="#">
+                        <div class="cat_title">
+                         
+                        <p> 
+                            Мои услуги
+                        </p>
+                            </div>
+                            <img src="img/cat_2.jpg" alt="some img">
+                            </a>
+                    </div>
+                    <div class="col-md-6 nav_item">
+                    <a href="#">
+                        <div class="cat_title">
+                        <p>
+                        Последние работы
+                            </p>
                             </div>
                             <img src="img/cat_3.jpg" alt="some img">
+                            </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </main>
-<script src="js/ajax/script.js"></script>
 <script src="js/preload.js"></script>
 </body>
 </html>

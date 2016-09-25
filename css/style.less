@@ -2,6 +2,7 @@
 @import "mixin";
 @import "base";
 @import "preloader";
+@import "sidebar";
 
 
 main {
@@ -23,16 +24,17 @@ main {
             top: 50%;
             text-align: center;
             height: auto;
+            z-index: 100;
 
-            a {
+            p {
               color: @link;
               font-size: @medium_font;
               text-transform: uppercase;
               .transition(all, 0.2s);
-              &:hover {
-                font-size: @medium_font + 2;
-                text-decoration: none;
-              }
+              // &:hover {
+              //   font-size: @medium_font + 2;
+              //   text-decoration: none;
+              // }
             }
           }
         }
