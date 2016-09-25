@@ -2,7 +2,6 @@
 @import "mixin";
 @import "base";
 @import "preloader";
-@import "video";
 
 
 main {
@@ -14,9 +13,8 @@ main {
       height: 100%;
       .block_nav {
         height: 100%;
-        & > div {
+        .nav_item {
           height: 50%;
-          border: 1px solid @black;
           position: relative;
           text-align: center;
           .cat_title {
@@ -38,10 +36,19 @@ main {
             }
           }
         }
+        .nav_item {
+  overflow: hidden;
+  position: relative;
+  height: 50%;
+  img {
+    .hover_img();
+    .margin_align();
+    height: 100%;
+    // width: 150%;
+    height: auto;
+  }
+}
       }
-    }
-    .sidebar {
-      border: 1px solid @black;
     }
   }
 }

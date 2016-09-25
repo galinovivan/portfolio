@@ -14,7 +14,9 @@
 </head>
 <body>
 <div class="page_preloader" id="mainPreloader">
-    <div class="spinner"></div>
+    <div class="spinner">
+        
+    </div>
  <!--    <video id="video_bg" autoplay="autoplay" loop="loop">
         <source src="video/star.mp4" type="video/mp4">
         <source src="video/star.ogv" type="video/ogv">
@@ -30,7 +32,7 @@
 
             <div class="col-md-8" id="content">
                 <div class="row block_nav">
-                    <div class="col-md-6 nav_iten">
+                    <div class="col-md-6 nav_item">
                         <div class="cat_title">
                         <a href="about.php">
                             Обо мне
@@ -43,13 +45,16 @@
                             Мой опыт
                         </a>
                             </div>
+                            <img src="img/cat_1.jpg" alt="some img">
                     </div>
                     <div class="col-md-6 nav_item">
                         <div class="cat_title">
-                        <a href="#">
+                         
+                        <a href="#"> 
                             Мои услуги
                         </a>
                             </div>
+                            <img src="img/cat_2.jpg" alt="some img">
                     </div>
                     <div class="col-md-6 nav_item">
                         <div class="cat_title">
@@ -57,6 +62,7 @@
                         Последние работы
                             </a>
                             </div>
+                            <img src="img/cat_3.jpg" alt="some img">
                     </div>
                 </div>
             </div>
