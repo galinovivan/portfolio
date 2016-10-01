@@ -1,3 +1,3 @@
-<div class="sidebar">
-	cvxk
+<div class="sidebar animate_swim_right">
+
 </div>

@@ -1,1 +1,191 @@
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{height:100%}body{position:relative;height:100%}.page_preloader{width:100%;height:100%;background:rgba(18,17,17,.4)}.page_preloader .spinner{position:absolute;top:45%;left:50%}.sidebar{width:20%}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: din_cond;
+  src: url('../fonts/PT_DIN_Condensed_Cyrillic.ttf');
+}
+@font-face {
+  font-family: refrigerator;
+  src: url('../fonts/Refrigerator Delx W01 Bold.ttf');
+}
+@font-face {
+  font-family: din_reg;
+  src: url('../fonts/pfdintextcomppro-regular.ttf');
+}
+@font-face {
+  font-family: din_medium;
+  src: url('../fonts/pfdintextcomppro-medium.ttf');
+}
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  height: 100%;
+}
+.page_preloader {
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 17, 17, 0.4);
+}
+.page_preloader .spinner {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+.sidebar {
+  width: 20%;
+  float: left;
+  background: #1a1919;
+  height: 100%;
+  position: fixed;
+}
+@keyframes swim_right {
+  from {
+    transform: translateX(3000px);
+    -ms-transform: translateX(3000px);
+    -webkin-transform: translateX(3000px);
+    -o-transform: translateX(3000px);
+    -moz-transform: translateX(3000px);
+  }
+  to {
+    transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkin-transform: translateX(0);
+    -o-transform: translateX(0);
+    -moz-transform: translateX(0);
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate_swim_right {
+  animation: swim_right 1.5s 1 ease-out, opacity 1.7s 1 ease-out;
+}

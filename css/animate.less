@@ -1,0 +1,25 @@
+@import "varibles";
+@import "mixings";
+@import "base";
+
+@keyframes swim_right {
+  from {
+    .transform(translateX(3000px));
+  }
+  to {
+    .transform(translateX(0));
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+//
+.animate_swim_right {
+  animation: swim_right 1.5s 1 ease-out, opacity 1.7s 1 ease-out;
+}
