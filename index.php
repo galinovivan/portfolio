@@ -38,6 +38,7 @@
                             Обо мне
                         </a>
                             </div>
+                        <img src="img/about.png" alt="some img">
                     </div>
                     <div class="col-md-6 nav_item">
                         <div class="cat_title">
@@ -45,7 +46,7 @@
                             Мой опыт
                         </a>
                             </div>
-                            <img src="img/cat_1.jpg" alt="some img">
+                            <img src="img/exp.jpg" alt="some img">
                     </div>
                     <div class="col-md-6 nav_item">
                         <div class="cat_title">

@@ -15,11 +15,6 @@
 <body>
 <div class="page_preloader" id="mainPreloader">
     <div class="spinner"></div>
- <!--    <video id="video_bg" autoplay="autoplay" loop="loop">
-        <source src="video/star.mp4" type="video/mp4">
-        <source src="video/star.ogv" type="video/ogv">
-        <source src="video/star.webm" type="video/webm">
-    </video> -->
 </div>
 <main>
     <div class="page_wrapper">

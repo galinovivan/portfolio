@@ -30,6 +30,9 @@ div.col-md-6 {
   top: 50%;
   background: url('../img/preloader.gif') no-repeat 50% 50%;
 }
+.sidebar {
+  background: #24292d;
+}
 main {
   height: 100%;
 }
