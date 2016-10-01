@@ -144,6 +144,31 @@ html {
 body {
   position: relative;
   height: 100%;
+  font-family: 'din_reg';
+}
+h1,
+h2 {
+  @font _bold;
+}
+h3,
+h4,
+h5 {
+  font-family: 'din_medium';
+}
+a,
+p,
+span,
+li {
+  color: #000000;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.list_inline li {
+  display: inline-block;
 }
 .page_preloader {
   width: 100%;
@@ -161,6 +186,7 @@ body {
   background: #1a1919;
   height: 100%;
   position: fixed;
+  z-index: 1000;
 }
 @keyframes swim_right {
   from {
@@ -188,4 +214,8 @@ body {
 }
 .animate_swim_right {
   animation: swim_right 1.5s 1 ease-out, opacity 1.7s 1 ease-out;
+}
+nav a {
+  color: #ffffff;
+  font-size: 18px;
 }
