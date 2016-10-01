@@ -16,7 +16,12 @@
 
 </head>
 <body>
-<div class="preloader">
+<div class="page_preloader">
+<div class="spinner">
+	<img src="img/ring-alt.svg">
 </div>
+</div>
+<?php require ("sidebar.php"); ?>
+<script type="text/javascript" src="js/preloader.js"></script>
 </body>
 </html>
