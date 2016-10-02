@@ -5,7 +5,7 @@
 <title>Главная</title>
 
 
-<link rel="stylesheet" href="libs/bootstrap/bottstrap-min.css">
+<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
 
 
 <link rel="stylesheet" href="css/style.css">
@@ -25,10 +25,10 @@
 <main class="main_content">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-md-6"></div>
-			<div class="col-xs-12 col-md-6">
+			<div class="col-xs-12 col-md-6 main_carousel main_left_column full_screen_column"></div>
+			<div class="col-xs-12 col-md-6 full_screen_column">
 				<div class="row">
-					<div class="col-xs-12 col-md-12"></div>
+					<div class="col-xs-12 col-md-12 main_right_column"></div>
 					<div class="col-xs-12 col-md-6"></div>
 					<div class="col-md-6 col-xs-12"></div>
 				</div>

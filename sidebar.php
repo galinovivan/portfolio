@@ -1,4 +1,4 @@
-<div class="sidebar animate_swim_right">
+<div class="sidebar">
 <nav class="side_nav">
     <ul>
         <li><a href="index.php">Главная</a></li>
@@ -9,3 +9,4 @@
     </ul>
 </nav>
 </div>
+<!--<div class="post_side"></div>-->
