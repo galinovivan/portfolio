@@ -14,8 +14,40 @@
   -moz-animation: @property;
   -o-animation: @property;
 }
-// prefix mixings
+.transition_fast(@what: all, @time: 0.2s) {
+  -webkit-transition: @what @time;
+  -moz-transition: @what @time;
+  -ms-transition: @what @time;
+  -o-transition: @what @time;
+  transition: @what @time;
+}
+.transition_medium(@what: all, @time: 0.4s) {
+  -webkit-transition: @what @time;
+  -moz-transition: @what @time;
+  -ms-transition: @what @time;
+  -o-transition: @what @time;
+  transition: @what @time;
+}
 
+// prefix mixings
 .align(@align: center) {
   text-align: @align;
 }
+.link_hover(@color: @base_color) {
+  .transition_fast();
+  &:hover {
+    color: @color;
+    text-decoration: none;
+  }
+}
+.margin_align() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+// decor
+

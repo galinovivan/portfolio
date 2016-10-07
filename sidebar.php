@@ -1,4 +1,11 @@
 <div class="sidebar">
+<div class="side_header">
+	<div class="caption">
+		<h2>
+			Портфолио веб разработчика
+		</h2>
+	</div>
+</div>
 <nav class="side_nav">
     <ul>
         <li><a href="index.php">Главная</a></li>
@@ -9,4 +16,3 @@
     </ul>
 </nav>
 </div>
-<!--<div class="post_side"></div>-->

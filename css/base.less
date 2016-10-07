@@ -7,7 +7,7 @@
 }
 @font-face {
 	font-family: refrigerator;
-	src: url('../fonts/Refrigerator Delx W01 Bold.ttf');
+	src: url('../fonts/pfdintextcomppro-bold.otf');
 }
 @font-face {
 	font-family: din_reg;
@@ -26,9 +26,15 @@ body {
 	height: 100%;
 	font-family: @font_regular;
 }
+h1 {
+	font-size: @h1_size;
+}
+h2 {
+	font-size: @h2_size;
+}
 h1,
 h2{
-	@font_bold;
+	font-family: @font_medium;
 }
 h3,h4,h5 {
 	font-family: @font_medium;
@@ -43,9 +49,6 @@ ul {
 	list-style: none;
 }
 
-//
-
-
 .list_inline {
 	li {
 		display: inline-block;
@@ -53,4 +56,8 @@ ul {
 }
 .up {
 	text-transform: uppercase;
+}
+// base style
+a {
+	.link_hover();
 }
