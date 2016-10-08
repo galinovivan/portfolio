@@ -28,11 +28,22 @@
   -o-transition: @what @time;
   transition: @what @time;
 }
+.filter(@properties) {
+-webkit-filter: @properties;
+filter: @properties;
+}
 
 // prefix mixings
 .align(@align: center) {
   text-align: @align;
 }
+.margin_align() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+// decor
+// hover
 .link_hover(@color: @base_color) {
   .transition_fast();
   &:hover {
@@ -40,14 +51,11 @@
     text-decoration: none;
   }
 }
-.margin_align() {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.grayscale_hover() {
+  .transition_medium();
+  .filter(grayscale(100%));
+  &:hover {
+    .filter(none);
+  }
 }
-
-
-
-
-// decor
-
+//hover

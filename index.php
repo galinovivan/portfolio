@@ -26,21 +26,22 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-md-6 main_carousel main_left_column full_screen_column">
-				<div class="carousel_wrapper">
-					<ul>
-						<li>
-							<img src="img/1.png">
-						</li>
-						<li>
-						<img src="img/1.png"></li>
-					</ul>
-				</div>
+			<div class="">
+					<img src="img/site_1.png" alt="site" class="img_responsive">
+			</div>
 			</div>
 			<div class="col-xs-12 col-md-6 full_screen_column">
 				<div class="row">
-					<div class="col-xs-12 col-md-12 main_right_column"></div>
-					<div class="col-xs-12 col-md-6"></div>
-					<div class="col-md-6 col-xs-12"></div>
+					<div class="col-xs-12 col-md-12 main_right_column">
+							<a class="img_wrapper" href="#">
+									<img src="img/xpp.jpg" alt="Опыт" class="gray_img">
+							</a>
+					</div>
+					<div class="col-xs-12 col-md-12">
+							<a class="img_wrapper" href="#">
+							<img src="img/exp.jpg" alt="Опыт" class="gray_img">
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
