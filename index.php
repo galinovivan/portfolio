@@ -25,7 +25,17 @@
 <main class="main_content">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-md-6 main_carousel main_left_column full_screen_column"></div>
+			<div class="col-xs-12 col-md-6 main_carousel main_left_column full_screen_column">
+				<div class="carousel_wrapper">
+					<ul>
+						<li>
+							<img src="img/1.png">
+						</li>
+						<li>
+						<img src="img/1.png"></li>
+					</ul>
+				</div>
+			</div>
 			<div class="col-xs-12 col-md-6 full_screen_column">
 				<div class="row">
 					<div class="col-xs-12 col-md-12 main_right_column"></div>
@@ -36,6 +46,7 @@
 		</div>
 	</div>
 </main>
+<script src="js/carousel.js"></script>
 <script type="text/javascript" src="js/preloader.js"></script>
 </body>
 </html>
