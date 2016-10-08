@@ -1,0 +1,16 @@
+@import "varibles";
+@import "mixings";
+@import "varibles";
+
+.hide_text {
+  display: block;
+ opacity: 0;
+ .transition_medium();
+}
+.hide_text_container {
+  &:hover {
+    .hide_text {
+      opacity: 1;
+    }
+  }
+}
